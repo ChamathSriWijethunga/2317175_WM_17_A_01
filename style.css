@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: #eeeff7;
+}
+
+.h2 {
+  font-weight: lighter;
+  font-size: 28px;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 8% 15% 2% 15%;
+}
+
+.left {
+  width: 50%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.right {
+  background-color: #ffffff;
+  width: 45%;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 10px 10px 10px  #dfe1ee;
+}
+
+input {
+  width: 100%;
+  display: block;
+  line-height: 10px;
+  padding: 18px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1.5px solid #dfe1ee;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 100%;
+  color: #ffffff;
+  border: none;
+  background-color: #5c79ff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: #5c79ff;
+  font-size: 14px;
+}
+
+.fpassword {
+  text-align: center;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.btn2 {
+  margin: 0px auto;
+  width: 55%;
+  color: #ffffff;
+  border: none;
+  background-color: #5c79ff;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #009900;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.bottomPara {
+  text-align: end;
+  margin: 0% 18% 0% 20%;
+}
+
+.bbtext {
+  font-weight: bold;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.blText {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+input:hover {
+  border-color: #5c79ff;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  .h2 {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .btn2 {
+    width: 65%;
+    font-size: 12px;
+  }
+  .bottomPara {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 12px;
+  }
+}
